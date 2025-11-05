@@ -1,12 +1,42 @@
+# # Integer Programming Problem parameters
+# n : 32              # we have problems for n = 32, 64, 256
+# data_load : True
+# use_lp_relaxation : True
+# lp_reinject_every : 20
+# n_lp_solutions_frac : 0.1
+# # Genetic Algorithm parameters
+# population_size: 300 # good number is 300
+# num_generations: 300
+# tournament_size: 5
+# topsoln_frac : 0.15
+# swap_p : 0.3
+# inv_p : 0.2
+# delta_mutate_p : 0.35
+# keep_children : 5
+# stall_patience : 50
+# n_ga_runs : 10
+
+
 # Integer Programming Problem parameters
-n : 16              # we have problems for n = 32, 64, 256
+n : 1024
 data_load : True
+use_lp_relaxation : True
+lp_reinject_every : 20
+n_lp_solutions_frac : 0.1
+
 # Genetic Algorithm parameters
-population_size: 100
-num_generations: 200
-tournament_size: 4
-topsoln_frac : 0.1
+population_size: 300
+num_generations: 300
+tournament_size: 5
+topsoln_frac : 0.15
 swap_p : 0.3
 inv_p : 0.2
-keep_children : 2
-stall_patience : 20
+delta_mutate_p : 0.35
+keep_children : 5
+stall_patience : 50
+n_ga_runs : 10
+
+# Wisdom of Artificial Crowds (WoAC) parameters
+use_woac: True
+woac_frac: 0.2        # Fraction of population to use as crowd (top performers)
+woac_every: 25        # Apply WoAC every N generations

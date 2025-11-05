@@ -1,0 +1,8 @@
+
+=== ILP GA + WoAC + LP Summary ===
+Problem size : n = 256, m = 16
+IP optimal   : 9194.000000
+GA best      : 9184.000000
+Relative err : 0.108767%   (feasible = True)
+Runs         : 10  (avg time 313.52s)
+WoAC used    : True
