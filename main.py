@@ -1,13 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
-"""
-Hybrid GA + LP-relaxation + Wisdom of Artificial Crowds (WoAC)
-with a complete visualisation suite.
-
-Author:  your-name
-Date:    2025-08-11
-"""
 
 # ----------------------------------------------------------------------
 # 1. IMPORTS
