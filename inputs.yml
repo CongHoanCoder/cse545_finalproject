@@ -18,7 +18,7 @@
 
 
 # Integer Programming Problem parameters
-n : 1024
+n : 512
 data_load : True
 use_lp_relaxation : True
 lp_reinject_every : 20
@@ -34,7 +34,7 @@ inv_p : 0.2
 delta_mutate_p : 0.35
 keep_children : 5
 stall_patience : 50
-n_ga_runs : 10
+n_ga_runs : 1
 
 # Wisdom of Artificial Crowds (WoAC) parameters
 use_woac: True
